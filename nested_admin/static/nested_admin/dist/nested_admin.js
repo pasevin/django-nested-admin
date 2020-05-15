@@ -1067,7 +1067,7 @@ if (typeof $.fn.filterDjangoField != 'function') {
 "use strict";
 
 
-module.exports = window.django.jQuery;
+module.exports = window.jQuery;
 
 /***/ }),
 

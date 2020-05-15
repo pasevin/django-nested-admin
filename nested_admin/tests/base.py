@@ -91,7 +91,7 @@ class BaseNestedAdminTestCase(AdminSelenosisTestCase):
                 });
             }
         """)
-        self.selenium.execute_script("window.$ = window.django.jQuery")
+        self.selenium.execute_script("window.$ = window.jQuery")
 
     def wait_until_element_is(self, element, selector, timeout=None, message=None):
         def element_matches_selector(d):
