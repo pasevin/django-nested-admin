@@ -1,1 +1,1 @@
-module.exports = window.django.jQuery;
+module.exports = window.jQuery;
