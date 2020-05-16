@@ -337,7 +337,7 @@ class DjangoFormset {
         if (grappelli) {
             grappelli.reinitDateTimeFields($form);
             // select2: we need to use the django namespace here
-            django.jQuery(document).trigger('formset:added', [django.jQuery(form), options.prefix]);
+            django.jQuery(document).trigger('formset:added', [django.jQuery($form), this.prefix]);
         }
         DJNesting.DjangoInlines.initPrepopulatedFields($form);
         DJNesting.DjangoInlines.reinitDateTimeShortCuts();
